@@ -1,1 +1,1 @@
-worker: python3.7 bazzibot.py
+worker: python3 bazzibot.py
