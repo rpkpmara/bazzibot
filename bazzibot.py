@@ -20,15 +20,15 @@ async def on_message(message):
     if message.author.bot:
         return None
     if message.content.startswith("@안녕"):
-        await client.send_message(channel, "하이")
+        await client.channel.send(channel, "하이")
     if message.content.startswith("@도움말"):
-        await client.send_message(channel, "안녕, 오늘의 날씨 배불룩배찌")
+        await client.channel.send(channel, "안녕, 오늘의 날씨 배불룩배찌")
     if message.content.startswith("@제작"):
-        await client.send_message(channel, "배찌★#8008")
+        await client.channel.send(channel, "배찌★#8008")
     if message.content.startswith("@오늘의 날씨"):
-        await client.send_message(channel, "weather.naver.com")
+        await client.channel.send(channel, "weather.naver.com")
     if message.content.startswith("@배불룩배찌"):
-        await client.send_message(channel, "https://www.youtube.com/channel/UCDuwrfmdvP9e4pcl-Ew1S0w")
+        await client.channel.send(channel, "https://www.youtube.com/channel/UCDuwrfmdvP9e4pcl-Ew1S0w")
 
 
 
