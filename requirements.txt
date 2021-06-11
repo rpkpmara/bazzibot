@@ -3,5 +3,5 @@ aiohttp==1.0.5
 async-timeout==3.0.1
 chardet==3.0.4
 multidict==4.7.5
-websockets==3.4
+websockets==9.1
 git+https://github.com/Rapptz/discord.py@rewrite#egg=discord.py[voice]
